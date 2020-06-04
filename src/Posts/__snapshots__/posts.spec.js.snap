@@ -1,76 +1,62 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Posts component should render Post component 1`] = `
-<ul
-  class="newsList"
+<div
+  className="wrapper"
 >
-  <li
-    class="post"
+  <Title
+    title="Hacker News"
+  />
+  <Input
+    handleChange={[Function]}
+    options={
+      Array [
+        Object {
+          "label": 10,
+          "value": 10,
+        },
+        Object {
+          "label": 20,
+          "value": 20,
+        },
+        Object {
+          "label": 40,
+          "value": 40,
+        },
+        Object {
+          "label": 50,
+          "value": 50,
+        },
+      ]
+    }
+    value={20}
+  />
+  <Input
+    onChange={[Function]}
+    onKeyPress={[Function]}
+    value=""
+  />
+  <ul
+    className="newsList"
   >
-    <div
-      class="description"
-    >
-      <a
-        class="title"
-        href="//test.url"
-      >
-        Jest & Enzyme
-      </a>
-      <span
-        class="text"
-      >
-        100 points
-      </span>
-      <span
-        class="comments"
-      >
-        10 comments
-      </span>
-      <span
-        class="date"
-      >
-        2020-5-4
-      </span>
-      <span
-        class="author"
-      >
-        Yauhen
-      </span>
-    </div>
-  </li>
-  <li
-    class="post"
-  >
-    <div
-      class="description"
-    >
-      <a
-        class="title"
-        href="//test2121.url"
-      >
-        TypeScript Basics
-      </a>
-      <span
-        class="text"
-      >
-        10 points
-      </span>
-      <span
-        class="comments"
-      >
-        8 comments
-      </span>
-      <span
-        class="date"
-      >
-        2020-5-6
-      </span>
-      <span
-        class="author"
-      >
-        Stepan
-      </span>
-    </div>
-  </li>
-</ul>
+    <Post
+      author="Yauhen"
+      created_at="2020-05-03T23:36:09.816Z"
+      key="1"
+      num_comments={10}
+      points={100}
+      title="Jest & Enzyme"
+      url="//test.url"
+    />
+    <Post
+      author="Stepan"
+      created_at="2020-05-05T23:36:09.816Z"
+      key="2"
+      num_comments={8}
+      points={10}
+      title="TypeScript Basics"
+      url="//test2121.url"
+    />
+  </ul>
+</div>
 `;

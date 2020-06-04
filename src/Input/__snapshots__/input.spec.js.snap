@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component should render Input component 1`] = `
+<div
+  className="inputWrapper"
+>
+  <i
+    className="fas fa-search"
+  />
+  <input
+    className="input"
+    onChange={[Function]}
+    onKeyPress={[Function]}
+    placeholder="Click to search"
+    value=""
+  />
+</div>
+`;

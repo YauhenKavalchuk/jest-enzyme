@@ -1,0 +1,14 @@
+.wrapper {
+  padding: 0 20px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.newsList {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  flex: 1 0 100%;
+}

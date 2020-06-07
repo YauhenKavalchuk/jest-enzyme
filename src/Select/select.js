@@ -1,6 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+import "./select.css";
+
 const Input = ({ handleChange, options, value }) => (
   <div className="selectWrapper">
     {options.length > 0 ? (

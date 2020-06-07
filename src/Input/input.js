@@ -1,6 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+import "./input.css";
+
 const Input = ({ onChange, value, onKeyPress }) => (
   <div className="inputWrapper">
     <i className="fas fa-search" />

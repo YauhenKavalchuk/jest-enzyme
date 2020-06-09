@@ -9,7 +9,6 @@ import Pagination from "../Pagination/pagination";
 import "./posts.css";
 
 import {
-  NEWS,
   HITS,
   BASE_PATH,
   SEARCH_PATH,
@@ -37,7 +36,6 @@ class Posts extends Component {
     )
       .then((res) => res.json())
       .then((result) => this.setNews(result))
-      .catch((error) => error);
   };
 
   handleInputChange = ({ target: { value } }) => {
@@ -90,14 +88,14 @@ class Posts extends Component {
     }
   };
 
-  updatePage = (number) => {
+  updatePage = (page) => {
     const { searchQuery, hitsPerPage } = this.state;
     this.setState(
       {
-        page: number,
+        page,
       },
       () => {
-        this.fetchData(searchQuery, hitsPerPage, number);
+        this.fetchData(searchQuery, hitsPerPage, page);
       }
     );
   };

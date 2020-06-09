@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Posts component should render Post component 1`] = `
+exports[`Posts component should render Posts component 1`] = `
 <div
   className="wrapper"
 >
@@ -30,6 +30,11 @@ exports[`Posts component should render Post component 1`] = `
       ]
     }
     value={20}
+  />
+  <Pagination
+    lastPage={10}
+    onClick={[Function]}
+    page={1}
   />
   <Input
     onChange={[Function]}

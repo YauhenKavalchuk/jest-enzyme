@@ -17,6 +17,8 @@ const renderPaginationBtns = (onClick, page, lastPage) => {
     btnsArr = [...gapBtns, ...middleBtn, ...lastBtns];
   } else if (page < lastPage - 3) {
     btnsArr = [...gapBtns, ...lastBtns]; // last 6 pages
+  } else if (page === 0 && lastPage === 0) {
+    btnsArr = [];
   } else {
     btnsArr = [...middleBtn, ...lastBtns]; // last 3 pages
   }
@@ -45,7 +47,7 @@ const Pagination = ({ onClick, page, lastPage }) => (
       </button>
     )}
     {renderPaginationBtns(onClick, page, lastPage)}
-    {page !== lastPage - 1 && (
+    {page !== lastPage && (
       <button onClick={onClick} data-name="next">
         {">>"}
       </button>

@@ -1,0 +1,248 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination component should render Pagination for last pages 1`] = `
+<div
+  className="paginationWrapper"
+>
+  <button
+    data-name="prev"
+    onClick={[Function]}
+  >
+    &lt;&lt;
+  </button>
+  <button
+    className=""
+    data-name={13}
+    key="13"
+    onClick={[Function]}
+  >
+    13
+  </button>
+  <button
+    className=""
+    data-name={14}
+    key="14"
+    onClick={[Function]}
+  >
+    14
+  </button>
+  <button
+    className="active"
+    data-name={15}
+    key="15"
+    onClick={[Function]}
+  >
+    15
+  </button>
+  ...
+  <button
+    className=""
+    data-name={17}
+    key="17"
+    onClick={[Function]}
+  >
+    17
+  </button>
+  <button
+    className=""
+    data-name={18}
+    key="18"
+    onClick={[Function]}
+  >
+    18
+  </button>
+  <button
+    className=""
+    data-name={19}
+    key="19"
+    onClick={[Function]}
+  >
+    19
+  </button>
+  <button
+    data-name="next"
+    onClick={[Function]}
+  >
+    &gt;&gt;
+  </button>
+</div>
+`;
+
+exports[`Pagination component should render Pagination with 3dots and 3 buttons in the end 1`] = `
+<div
+  className="paginationWrapper"
+>
+  <button
+    data-name="prev"
+    onClick={[Function]}
+  >
+    &lt;&lt;
+  </button>
+  ...
+  <button
+    className=""
+    data-name={17}
+    key="17"
+    onClick={[Function]}
+  >
+    17
+  </button>
+  <button
+    className=""
+    data-name={18}
+    key="18"
+    onClick={[Function]}
+  >
+    18
+  </button>
+  <button
+    className="active"
+    data-name={19}
+    key="19"
+    onClick={[Function]}
+  >
+    19
+  </button>
+  <button
+    data-name="next"
+    onClick={[Function]}
+  >
+    &gt;&gt;
+  </button>
+</div>
+`;
+
+exports[`Pagination component should render Pagination with props 1`] = `
+<div
+  className="paginationWrapper"
+>
+  <button
+    className="active"
+    data-name={0}
+    key="0"
+    onClick={[Function]}
+  >
+    0
+  </button>
+  <button
+    className=""
+    data-name={1}
+    key="1"
+    onClick={[Function]}
+  >
+    1
+  </button>
+  <button
+    className=""
+    data-name={2}
+    key="2"
+    onClick={[Function]}
+  >
+    2
+  </button>
+  ...
+  <button
+    className=""
+    data-name={17}
+    key="17"
+    onClick={[Function]}
+  >
+    17
+  </button>
+  <button
+    className=""
+    data-name={18}
+    key="18"
+    onClick={[Function]}
+  >
+    18
+  </button>
+  <button
+    className=""
+    data-name={19}
+    key="19"
+    onClick={[Function]}
+  >
+    19
+  </button>
+  <button
+    data-name="next"
+    onClick={[Function]}
+  >
+    &gt;&gt;
+  </button>
+</div>
+`;
+
+exports[`Pagination component should render Pagination without 3dots in the middle 1`] = `
+<div
+  className="paginationWrapper"
+>
+  <button
+    data-name="prev"
+    onClick={[Function]}
+  >
+    &lt;&lt;
+  </button>
+  <button
+    className=""
+    data-name={14}
+    key="14"
+    onClick={[Function]}
+  >
+    14
+  </button>
+  <button
+    className=""
+    data-name={15}
+    key="15"
+    onClick={[Function]}
+  >
+    15
+  </button>
+  <button
+    className="active"
+    data-name={16}
+    key="16"
+    onClick={[Function]}
+  >
+    16
+  </button>
+  <button
+    className=""
+    data-name={17}
+    key="17"
+    onClick={[Function]}
+  >
+    17
+  </button>
+  <button
+    className=""
+    data-name={18}
+    key="18"
+    onClick={[Function]}
+  >
+    18
+  </button>
+  <button
+    className=""
+    data-name={19}
+    key="19"
+    onClick={[Function]}
+  >
+    19
+  </button>
+  <button
+    data-name="next"
+    onClick={[Function]}
+  >
+    &gt;&gt;
+  </button>
+</div>
+`;
+
+exports[`Pagination component should render Pagination without props 1`] = `
+<div
+  className="paginationWrapper"
+/>
+`;

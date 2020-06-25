@@ -29,7 +29,7 @@ Input.propTypes = {
 };
 
 Input.defaultProps = {
-  handleChange: () => {},
+  handleChange: () => 'Test',
   options: [],
   value: 0,
 };

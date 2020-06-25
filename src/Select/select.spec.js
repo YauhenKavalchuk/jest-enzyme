@@ -2,18 +2,18 @@ import React from "react";
 import Select from "./select";
 import { shallow } from "enzyme";
 
+const props = {
+  options: [
+    { value: "text_1", label: "Test 1" },
+    { value: "text_2", label: "Test 2" },
+  ],
+  value: 0,
+  handleChange: () => {},
+};
+
 const setUp = (props) => shallow(<Select {...props} />);
 
 describe("Select component", () => {
-  const props = {
-    options: [
-      { value: "10", label: "10" },
-      { value: "20", label: "20" },
-    ],
-    value: 10,
-    handleChange: () => {},
-  };
-
   describe("Has props", () => {
     const component = setUp(props);
 
@@ -39,7 +39,7 @@ describe("Select component", () => {
   describe("defaultProps", () => {
     it("should use default handleChange", () => {
       const result = Select.defaultProps.handleChange();
-      expect(result).toBe(undefined);
+      expect(result).toBe('Test');
     });
   });
 });

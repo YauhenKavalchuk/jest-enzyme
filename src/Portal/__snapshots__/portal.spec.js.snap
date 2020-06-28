@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Portal component should render Portal component 1`] = `
+<div>
+  webDev
+</div>
+`;

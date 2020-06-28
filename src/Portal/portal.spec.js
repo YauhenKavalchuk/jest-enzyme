@@ -1,12 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Portal from "./Portal";
+import { shallow } from "enzyme";
 
 const componentDidMountSpy = jest.spyOn(Portal.prototype, "componentDidMount");
 const componentWillUnmountSpy = jest.spyOn(
   Portal.prototype,
   "componentWillUnmount"
 );
+
 const setUp = () =>
   shallow(
     <Portal>

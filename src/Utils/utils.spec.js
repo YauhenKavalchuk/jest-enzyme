@@ -41,9 +41,9 @@ describe("removeObjPropImmutably util", () => {
   });
 
   it("Negative checking cases", () => {
-    const notObjects = [undefined, null, [], {}, "string", 1];
-    for (let int = 1; int < notObjects.length; int++) {
-      expect(removeObjPropImmutably(notObjects[int])).toMatchObject({});
+    const notValidObjects = [undefined, null, [], {}, "string", 1];
+    for (let int = 1; int < notValidObjects.length; int++) {
+      expect(removeObjPropImmutably(notValidObjects[int])).toMatchObject({});
     }
   });
 });

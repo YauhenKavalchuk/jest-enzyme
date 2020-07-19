@@ -16,6 +16,7 @@
 - [React-Хуки тестирование](https://ru.reactjs.org/docs/hooks-faq.html#how-to-test-components-that-use-hooks)
 - [Подходы к тестированию](https://habr.com/ru/post/459620/)
 - [Issue (How to test React.Portal)](https://github.com/testing-library/react-testing-library/issues/62)
+- [Jest set, clear and reset mock/spy/stub implementation](https://codewithhugo.com/jest-stub-mock-spy-set-clear/)
 
 ## Быстрый старт
 - Клонируйте репозиторий: `git clone https://github.com/YauhenKavalchuk/jest-enzyme.git`

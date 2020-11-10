@@ -25,6 +25,21 @@
 - Перейдите в нужную ветку соответствующую уроку: `git checkout lesson_02`, `git checkout lesson_03` и т.д.
 - Запустите тесты: `yarn test`
 
+## Список уроков
+- #0 Введение (Introduction) 
+- #1 Теория тестирования (Testing Basics) 
+- #2 Установка окружения (Setup Environment) 
+- #3 Тестирование отрисовки (Testing Rendering) 
+- #4 Тестирование снимков (Snapshot Testing) 
+- #5 Тестирование пропсов (Testing Props) 
+- #6 Тестирование событий изменения (Testing Change Events) 
+- #7 Тестирование событий клика (Testing Click Events) 
+- #8 Тестирование методов жизненного цикла (Lifecycle Methods Testing) 
+- #9 Тестирование асинхронных запросов (Testing & Mocking Fetch) 
+- #10 Полное тестирование снимками (Full Snapshot Testing) 
+- #11 Тестирование утилит (Utils Testing) 
+- #12 Тестирование контекста и портала (Context & Portal Testing) 
+
 ## Автор курса в социальных сетях:
 Social network | Link to Profile
 -----|-----
